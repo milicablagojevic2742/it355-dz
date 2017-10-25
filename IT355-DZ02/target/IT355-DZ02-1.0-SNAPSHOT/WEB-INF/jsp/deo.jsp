@@ -8,7 +8,7 @@
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@ include file="header.jsp" %>
-        <h2>Unesite informacije o delovima</h2>
+<h2><spring:message code="naslov.unos"/></h2>
         <form:form method="POST" action="/IT355-DZ02/addDeo">
             <table>
                 <tr>

@@ -5,24 +5,26 @@
 --%>
 
 <%@ page language="java" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@ include file="header.jsp" %>
 <html>
     <head>
-        <title>Prikaz delova</title>
+        <title><spring:message code="naslov.prikaz"/></title>
     </head>
     <body>
-        <h2>Podaci o delu</h2>
+        <h2><spring:message code="podnaslov.prikaz"/></h2>
         <table>
             <tr>
-                <td>Sifra: </td>
+                <td><spring:message code="sifra"/></td>
                 <td>${sifra}</td>
             </tr>
             <tr>
-                <td>Naziv: </td>
+                <td><spring:message code="ime"/></td>
                 <td>${ime}</td>
             </tr>
             <tr>
-                <td>Cena: </td>
+                <td><spring:message code="cena"/></td>
                 <td>${cena}</td>
             </tr>
         </table>
