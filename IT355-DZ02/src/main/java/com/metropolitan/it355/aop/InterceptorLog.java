@@ -47,7 +47,7 @@ public class InterceptorLog implements MethodBeforeAdvice {
     }
 
     @AfterReturning(pointcut = "execution(* com.metropolitan.it355.aop.DeoDodajImpl.addDeoRet())", returning = "returnValue")
-    public void runAfter(JoinPoint joinPoint, String returnValue) throws Throwable {
+    public void runAfter(JoinPoint joinPoint, String returnValue) {
         System.out.println("Inside RunAfterExecution.afterReturning() method...");
         System.out.println("inserted after : " + joinPoint.getSignature().getName());
         System.out.println("Method returned value is : " + returnValue);
