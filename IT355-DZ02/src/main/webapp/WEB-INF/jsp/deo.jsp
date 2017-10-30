@@ -9,7 +9,7 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@ include file="header.jsp" %>
 <h2><spring:message code="naslov.unos"/></h2>
-        <form:form method="POST" action="/IT355-DZ02/addDeo">
+        <form:form method="POST" action="/IT355-DZ04/addDeo">
             <table>
                 <tr>
                     <td><form:label path="sifra"><spring:message

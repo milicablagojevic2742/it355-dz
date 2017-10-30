@@ -9,6 +9,6 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@ include file="header.jsp" %>
         <div style="text-align: center;">
-             <a href="http://localhost:8084/IT355-DZ02/deo"><spring:message code="unos"/></a>
+             <a href="http://localhost:8084/IT355-DZ04/deo"><spring:message code="unos"/></a>
         </div>
 <%@ include file="footer.jsp" %>
