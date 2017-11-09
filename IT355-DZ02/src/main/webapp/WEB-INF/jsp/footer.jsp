@@ -4,7 +4,7 @@
     Author     : Blagojevic Milica
 --%>
         <br/>
-        <h2><a href="http://localhost:8084/IT355-DZ04/"><spring:message code="linkkapoc"/></a><h2>
+        <li class="f1">Copyright</li>
         <br/>
     </body>
 </html>

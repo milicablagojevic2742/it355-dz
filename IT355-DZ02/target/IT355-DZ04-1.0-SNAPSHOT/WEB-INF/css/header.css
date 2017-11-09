@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 9, 2017, 7:43:36 PM
+    Author     : Blagojevic Milica
+*/
+
+.navbar .navbar-brand img {
+  padding-top: 0px;
+  margin-top: 0px;
+  height: 70px;
+  width: 100px;
+}
+
+.navbar-header{
+  min-height: 90px;
+  color: crimson;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+body{
+    background-color: #ede9e8;
+    width:100%;
+    margin:auto
+}
+
+p{
+    font-size:18px;
+    font-family:sans-serif;
+    color:#dc143c
+}
+
+li{
+    list-style:none;
+    float:left;
+    font-size:18px;
+    color: crimson;
+    font-family:sans-serif;
+    margin-left:25px;
+    padding-right:25px
+}
+
+li.f1{
+    color:#dc143c;
+    float:right;
+    margin-top:20px;
+    margin-right:25px;
+    font-size:20px
+}
