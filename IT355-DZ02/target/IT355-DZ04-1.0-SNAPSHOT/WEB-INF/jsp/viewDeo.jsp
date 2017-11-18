@@ -13,7 +13,7 @@
 <head>
     <title><spring:message code="naslov.prikaz"/></title>
 </head>
-<body align="center">
+<body class="text">
     <h2><spring:message code="podnaslov.prikaz"/></h2>
     <table align="center">
         <tr>
@@ -29,6 +29,4 @@
             <td>${cena}</td>
         </tr>
     </table>
-</body>
-</html>
 <%@ include file="footer.jsp" %>

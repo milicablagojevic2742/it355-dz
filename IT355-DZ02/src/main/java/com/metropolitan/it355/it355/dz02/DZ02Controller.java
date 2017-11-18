@@ -43,6 +43,13 @@ public class DZ02Controller {
         model.setViewName("listaDelova");
         return model;
     }
+    
+    @RequestMapping(value = "/kontakt", method = RequestMethod.GET)
+    public ModelAndView kontaktPage() {
+        ModelAndView model = new ModelAndView();
+        model.setViewName("kontakt");
+        return model;
+    }
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public ModelAndView login(@RequestParam(value = "error", required = false) String error,

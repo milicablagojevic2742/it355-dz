@@ -46,10 +46,25 @@ li{
     padding-right:25px
 }
 
-li.f1{
-    color:#dc143c;
-    float:right;
-    margin-top:20px;
-    margin-right:25px;
-    font-size:20px
+.footer{
+    color:crimson;
+    background-color: #101010;
+    text-align: right;
+    width: 100%;
+    font-size:20px;
+    margin-top: 10px;
+}
+
+.text{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.text-login{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+    margin-left: 43%;
 }

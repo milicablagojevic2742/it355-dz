@@ -11,7 +11,7 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@ include file="header.jsp" %>
 <sec:authorize access="hasRole('ROLE_USER')">
-    <h3 align="center"><img src="pic/working.png"/><br/>Stranica je u izradi...</h3>
+    <h3 align="center"><img src="pic/workonit.gif"/><br/>Stranica je u izradi...</h3>
 </sec:authorize>
 <%@ include file="footer.jsp" %>
 

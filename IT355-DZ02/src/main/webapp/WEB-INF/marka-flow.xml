@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow xmlns="http://www.springframework.org/schema/webflow"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/webflow
+        http://www.springframework.org/schema/webflow/spring-webflow-2.4.xsd">
+    
+    <var name="markaBean" class="com.metropolitan.it355.it355.dz02.MarkaBean" />
+    <view-state id="displayLoginView" view="jsp/markaFlow.jsp" model="markaBean">
+        <transition on="performAction" to="performActionAction" />
+    </view-state>
+    <action-state id="performActionAction">
+        <evaluate expression="markaService.proveraMarke(markaBean)" />
+        <transition on="true" to="displaySuccess" />
+        <transition on="false" to="displayError" />
+    </action-state>
+    <view-state id="displaySuccess" view="jsp/success.jsp" model="markaBean"/>
+    <view-state id="displayError" view="jsp/failure.jsp" />
+</flow>

@@ -13,7 +13,6 @@
 <%@ include file="header.jsp" %>
 <html>
     <body align="center">
-        <h1> ${message}</h1>
         <h2><spring:message code="naslov.unos"/></h2>
         <form:form method="POST" action="/IT355-DZ04/addDeo">
             <table align="center">

@@ -14,10 +14,12 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/header.css" />
     </head>
     <body>
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -33,11 +35,13 @@
                     <ul class="nav navbar-nav">
                         <li><a href="http://localhost:8084/IT355-DZ04/"><spring:message code="linkkapoc"/></a></li>
                         <li><a href="http://localhost:8084/IT355-DZ04/listaDelova"><spring:message code="listaDelova"/></a></li>
+                        <li><a href="http://localhost:8084/IT355-DZ04/markaFlow"><spring:message code="flow"/></a></li>
                         <li>
                         <c:if test="${pageContext.request.userPrincipal.name != null}">
                             <a href="http://localhost:8084/IT355-DZ04/deo"><spring:message code="unos"/></a>
                         </c:if>
                         </li>
+                        <li><a href="http://localhost:8084/IT355-DZ04/kontakt"><spring:message code="kontakt"/></a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li>
@@ -56,8 +60,7 @@
                                     document.getElementById("logoutForm").submit();
                                 }
                             </script>
-                            Username -
-                            ${pageContext.request.userPrincipal.name} | <a href="javascript:formSubmit()"> <spring:message code="logout"/></a>
+                            ${pageContext.request.userPrincipal.name} <a href="javascript:formSubmit()"> <spring:message code="logout"/></a>
                         </c:if>
                         </li>
                     </ul>
