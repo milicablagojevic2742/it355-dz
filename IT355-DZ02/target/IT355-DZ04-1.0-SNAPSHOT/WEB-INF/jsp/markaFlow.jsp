@@ -28,7 +28,7 @@
                 <label class="radio-inline"><input type="radio" name="marka" value="VW"> VolksWagen</label><br>
                 <input type="submit" class="btn btn-default" value="Probaj" />
             </form>
-            <a href="http://localhost:8084/IT355-DZ04/"><span class="label label-primary">Početna</span></a>
+            <a href="http://localhost:8084/IT355-DZ07/"><span class="label label-primary">Početna</span></a>
         </div>
     </body>
 </html>

@@ -20,7 +20,7 @@
             <b>Žao nam je</b>, ali niste tačno odgovorili. Pokušajte ponovo <a href="http://localhost:8084/IT355-DZ04/markaFlow">ovde</a>.
         </div>
         <div class="text">
-            <a href="http://localhost:8084/IT355-DZ04/"><span class="label label-primary">Početna</span></a>
+            <a href="http://localhost:8084/IT355-DZ07/"><span class="label label-primary">Početna</span></a>
         </div>
     </body>
 </html>

@@ -1,6 +1,21 @@
-C:\Users\Milica\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\it355\dz02\DeloviController.java
-C:\Users\Milica\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\model\ListaDelova.java
-C:\Users\Milica\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\it355\dz02\MarkaBean.java
-C:\Users\Milica\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\it355\dz02\MarkaService.java
-C:\Users\Milica\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\model\Deo.java
-C:\Users\Milica\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\it355\dz02\DZ02Controller.java
+C:\Users\Milica Blagojevic\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\dao\KategorijaDaoImpl.java
+C:\Users\Milica Blagojevic\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\mapper\UserMapper.java
+C:\Users\Milica Blagojevic\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\it355\dz02\MarkaService.java
+C:\Users\Milica Blagojevic\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\service\KategorijaServiceImpl.java
+C:\Users\Milica Blagojevic\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\dao\DeoDao.java
+C:\Users\Milica Blagojevic\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\dao\DeoDaoImpl.java
+C:\Users\Milica Blagojevic\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\mapper\KategorijaMapper.java
+C:\Users\Milica Blagojevic\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\model\Deo.java
+C:\Users\Milica Blagojevic\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\model\User.java
+C:\Users\Milica Blagojevic\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\model\Kategorija.java
+C:\Users\Milica Blagojevic\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\service\UserService.java
+C:\Users\Milica Blagojevic\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\it355\dz02\MarkaBean.java
+C:\Users\Milica Blagojevic\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\dao\UserDao.java
+C:\Users\Milica Blagojevic\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\service\DeoService.java
+C:\Users\Milica Blagojevic\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\dao\KategorijaDao.java
+C:\Users\Milica Blagojevic\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\dao\UserDaoImpl.java
+C:\Users\Milica Blagojevic\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\mapper\DeoMapper.java
+C:\Users\Milica Blagojevic\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\it355\dz02\DZ02Controller.java
+C:\Users\Milica Blagojevic\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\service\KategorijaService.java
+C:\Users\Milica Blagojevic\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\service\UserServiceImpl.java
+C:\Users\Milica Blagojevic\Documents\NetBeansProjects\IT355-DZ02\IT355-DZ02\src\main\java\com\metropolitan\it355\service\DeoServiceImpl.java

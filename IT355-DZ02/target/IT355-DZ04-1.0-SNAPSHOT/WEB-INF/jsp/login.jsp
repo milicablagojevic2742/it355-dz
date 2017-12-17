@@ -29,7 +29,7 @@
                     <label>Password:</label>
                     <input type="password" class="form-control" name="password" placeholder="Enter password">
                 </div>
-                <input name="submit" type="submit" class="btn btn-default" value="Submit" />
+                <input name="submit" type="submit" class="btn btn-success" value="Submit" />
             </div>
             <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
         </form>
